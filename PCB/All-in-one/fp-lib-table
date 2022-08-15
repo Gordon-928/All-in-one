@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "MPU")(type "KiCad")(uri "C:/Users/C0516049/Documents/GitHub/All-in-one/PCB/lib/MPU6050")(options "")(descr ""))
+  (lib (name "BMP")(type "KiCad")(uri "C:/Users/C0516049/Documents/GitHub/All-in-one/PCB/lib/BMP280")(options "")(descr ""))
+  (lib (name "NEO6M")(type "KiCad")(uri "C:/Users/C0516049/Documents/GitHub/All-in-one/PCB/lib/NEO6M")(options "")(descr ""))
+)
