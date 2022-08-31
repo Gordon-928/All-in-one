@@ -46,3 +46,21 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-08-27 15:15:26.443
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-08-30 18:42:29.281 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-08-30 18:42:36.953
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-08-30 18:42:37.013
+!MESSAGE Log4j initialized with config file /home/gordons/Projects/Personal/All-in-one/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-08-30 18:42:41.810
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui 4 4 2022-08-30 20:20:12.744
+!MESSAGE Plug-in 'com.st.stm32cube.ide.mcu.debug.dsf.oss' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.run' is invalid): com.st.stm32cube.ide.mcu.debug.dsf.oss.ui.action.TerminateAndRelaunch
