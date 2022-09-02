@@ -2,4 +2,5 @@
   (lib (name "MPU")(type "Legacy")(uri "${KIPRJMOD}/lib/MPU6050/MPU6050.lib")(options "")(descr ""))
   (lib (name "BMP")(type "Legacy")(uri "${KIPRJMOD}/lib/BMP280/BMP280.lib")(options "")(descr ""))
   (lib (name "NEO6M")(type "Legacy")(uri "${KIPRJMOD}/lib/NEO6M/NEO-6M-GPS.lib")(options "")(descr ""))
+  (lib (name "All-in-one_custom")(type "KiCad")(uri "${KIPRJMOD}/lib/All-in-one_custom.kicad_sym")(options "")(descr ""))
 )
