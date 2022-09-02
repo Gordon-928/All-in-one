@@ -2,4 +2,5 @@
   (lib (name "MPU")(type "KiCad")(uri "${KIPRJMOD}/lib/MPU6050")(options "")(descr ""))
   (lib (name "BMP")(type "KiCad")(uri "${KIPRJMOD}/lib/BMP280")(options "")(descr ""))
   (lib (name "NEO6M")(type "KiCad")(uri "C:/Users/C0516049/Documents/GitHub/All-in-one/PCB/lib/NEO6M")(options "")(descr ""))
+  (lib (name "All-in-one-custom")(type "KiCad")(uri "${KIPRJMOD}/lib/All-in-one-custom.pretty")(options "")(descr ""))
 )
