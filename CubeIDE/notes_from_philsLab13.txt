@@ -1,0 +1,21 @@
+STM32 CUBEIDE
+CLOCK SETTING
+- Set required clock source and run clock solver
+
+SPI SETTING
+- Change prescaler to change the baud rate (this step is mainly to tune to the required baud rate)
+
+TIMER SETTING - PWM
+- Change prescaler to change PWM freq
+- This depends on the clock that the timer is on, refer to datasheet
+- Look for the clock frequecny and change the prescaler to achieve desired frequency
+	- e.g: want to scale down the timer clock from 84 MHz (APB1) to 10 Hz
+	       i) Prescaler set to => 8400-1 (84e6 / 8400 = 10k) //set the freq of the counter is changed
+              ii) counter period set to 100-1 (10k/100 = 100Hz) //counter need to count to 100-1
+              Note: 
+ 	      - the -1 offset is needed (counter start from 0, if we want a 16 bit timer to count 2^16 times, it just need to count from 0-2^16-1)
+              - must check if counter exceed the size of the regiester xxbit timer (e.g. 16 bit timer has a max value of 2^16 = 65536)
+
+
+link: https://electronics.stackexchange.com/questions/632838/prescaler-vs-counter-period-stm32
+Ref: ST-AN4776 Rev 3 Applcation Notes
